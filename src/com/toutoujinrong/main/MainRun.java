@@ -25,15 +25,15 @@ public class MainRun {
 	
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
-		AppiumUtils.startAppuim();
-		String str = "D:\\TestSuite.xlsx";
-		InputStream in = new FileInputStream(new File(str));
-		InputStream in2 = new FileInputStream(new File(str));
-		
-		ExcelData<TestSuiteVo> testSuite = ExcelUtils.read(in, "TestSuites", TestSuiteVo.class);
-		ExcelData<TestCaseVo> testCase = ExcelUtils.read(in2, "PublicMethods", TestCaseVo.class);
+//		AppiumUtils.startAppuim();
+////		String str = "D:\\TestSuite.xlsx";
+////		InputStream in = new FileInputStream(new File(str));
+////		InputStream in2 = new FileInputStream(new File(str));
+//		
+//		ExcelData<TestSuiteVo> testSuite = ExcelUtils.read(in, "TestSuites", TestSuiteVo.class);
+//		ExcelData<TestCaseVo> testCase = ExcelUtils.read(in2, "PublicMethods", TestCaseVo.class);
 		AppiumOperator a = new AppiumOperator();
-		AppiumExecutor b = new AppiumExecutor(a);
-		b.executeSuite(testSuite, testCase);
+//		AppiumExecutor b = new AppiumExecutor(a);
+//		b.executeSuite(testSuite, testCase);
 	}
 }

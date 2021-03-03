@@ -150,9 +150,8 @@ public class AppiumUtils {
 //		capabilities.setCapability("app", app.getAbsolutePath());
 		
 //		|appPackage|你想运行的Android应用的包名|比如`com.example.android.myApp`, `com.android.settings`|
-		capabilities.setCapability("appPackage", "com.toutouunion");//TODO
+		capabilities.setCapability("appPackage", "com.yaojet.tma.goods");//TODO
 //		|appActivity| 你要从你的应用包中启动的 Android Activity 名称。它通常需要在前面添加 `.` 
-//		capabilities.setCapability("appActivity", "com.toutouunion.ui.HomeActivity");//TODO
 		capabilities.setCapability("appActivity", "com.toutouunion.ui.welcome.GuideActivity");//TODO
 		//com.lcfool.enjoy.activity
 //		|unicodeKeyboard|使用 Unicode 输入法
